@@ -1,0 +1,14 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "furoshiki project",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "development",
+	"workspaceFolder": "/home/node/furoshiki",
+	"overrideCommand": true,
+	"remoteUser": "node",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/angular-cli:2": {
+			"version": "15.2.6"
+		}
+	}
+}
